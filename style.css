@@ -1,0 +1,39 @@
+* {
+    font-family: Arial, Helvetica, sans-serif;
+}
+.container {
+    background-color: rgb(226, 217, 217);
+    width: 100px;
+    padding: 80px;
+    margin: 10px;
+    border-radius: 20px;
+    text-align: center;
+}
+
+.reg {
+    background-color: orangered;
+    width: 100px;
+    padding: 10px;
+    color: white;
+    font-weight: bold;
+    text-align: center;
+    border-radius: 5px; 
+    border: 1px;  
+}
+
+.price {
+    text-align: center;
+    font-weight: bold;
+}
+
+.duration {
+    color: rgb(71, 52, 52);
+}
+
+.bigcontainer {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: end;
+    justify-content: center;
+}
